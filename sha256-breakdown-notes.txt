@@ -1,0 +1,8 @@
+hash = 256 bits
+hash char count = 64
+so, each character taking 4 bits
+lowest possible value for 4 bits in binary -> 0 0 0 0 => 0
+highest possible value for 4 bits in binary -> 1 1 1 1 => 15
+so the range of each character is, 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 => 0 -> 15
+0 1 2 3 4 5 6 7 8 9 a  b  c  d  e  f  => 0 -> f  (hexadecimal)
