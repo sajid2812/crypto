@@ -9,3 +9,9 @@ const message = new TextEncoder().encode("sajid");
 
 const sign = nacl.sign.detached(message, privKey);
 
+try {
+  const isValid = nacl.sign.detached.verify(message, sign, pubKey);
+  console.log(isValid);
+} catch (e) {
+  console.log(e.message);
+}
