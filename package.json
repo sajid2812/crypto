@@ -1,0 +1,24 @@
+{
+  "name": "bn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "brute-force-prefix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajid2812/crypto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sajid2812/crypto/issues"
+  },
+  "homepage": "https://github.com/sajid2812/crypto#readme",
+  "dependencies": {
+    "@noble/ed25519": "^2.2.3"
+  }
+}
